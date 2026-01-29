@@ -1,3 +1,11 @@
+#  Definition of python
+
+# 1️⃣ Python is a high-level case sensitive  programming language used to create software, websites, and applications.
+
+# 2️⃣ Python is an easy-to-learn language that helps computers understand and perform tasks through code.
+
+# 3️⃣ Python is a powerful and popular programming language used in web development, data science, AI, and automation.
+
 # print('Hello World!')
 # print('My name is Siddiq')
 # print('I am a Student!')
@@ -108,3 +116,166 @@
 
 # ---------------------------------------------------------------------------
 
+# Commit in Python   >>> code me likha hua note / explanation
+
+#print("Hello World")    Single line commint
+
+"""               Multi line commint
+print(50)
+print(50)
+
+"""
+
+# ---------------------------------------------------------------------------
+
+# Operators   >>> An Operator is a symbol that performs a certain operation between operands .
+# Operands >>>  wo data ya values jin par operator kaam karta hai .
+
+# Types of operators in python
+
+# 1 Arithmetic Operators  >>> Ye number k sath mathematically operations krte hai  ( +  , -  ,  /  , *  , % , ** )
+
+# 2 Relational /  Comparison Operators  >>> Do values ka comaprison krte hai   ( <   ,   >  ,  <=  , >= ,  == , !=  )
+
+# 3 Assignment Operators >>> Ye variables ko value assign krte hai   ( =  , +=  , -=  ,  %= ,  /=  ,  //=   , **=  , *= )
+
+#4 Logical Operatos >>> ( not  , and  , or)
+
+
+# --------------------------------------------- 
+
+# 1 Arithmetic Operators 
+
+# num1 = 5
+# num2 = 2
+
+# print(num1 + num2)  #7
+# print(num1 - num2)   #3
+# print(num1 * num2)  #10
+# print(num1 / num2)  #2.5
+# print(num1 ** num2) #25
+# print(num1 % num2) #1
+
+# point  >>> jab bhi do values ko divide kre gai to answer hamesha decimal me aye ga python me
+
+# --------------------------------------------- 
+
+# 2 Relational /  Comparison Operators 
+
+# num1 = 50 
+# num2 = 20
+
+# print(num1 >  num2) #True  
+# print(num1 <  num2) #False
+# print(num1 >=  num2) #True
+# print(num1 <= num2) #False
+# print(num1 == num2) #False
+# print(num1 != num2) #True
+
+
+# --------------------------------------------- 
+
+# 3 Assignment Operators
+
+# num1 = 20      #Simple assignment
+# print(num1)  
+
+# ---------------- Additional assignment  / add and assign Operator ----------- 
+
+# num1 = 10
+# print(num1)
+
+# num1 +=  5
+
+# print(num1)
+
+
+# ---------------------- Sub and assign Operator  ---------
+
+# num1 = 20
+# print(num1)
+
+# num1 -= 10 
+# print(num1)
+
+
+# ----------------- multiply and assign ----------------
+
+# num1 = 10
+# print(num1)
+
+# num1 *=  2
+# print(num1)
+
+
+# --------------------------- Divide and assign ------------------- 
+
+# num1 =  9
+# print(num1) 
+
+# num1 /=  3
+# print(num1)
+
+
+# -------------------- Power and assign ----------------------- 
+
+# num1 = 2
+# print(num1)
+
+# num1 = 2**3   #First Way 
+# print(num1)
+
+# num1 **= 3   #Sec Way
+# print(num1)
+
+
+# --------------------------------------- Modulus and assign --------------- 
+
+# num1 = 13
+# print(num1)
+
+# num1 = 13 % 3   #First way
+# print(num1)
+
+# num1 %= 3
+# print(num1)
+
+
+# ----------------------------------- Logical Operators --------------------------
+
+# not operator
+
+# val1 = True
+# print(not val1)
+
+# val2 = False
+# print(not val2)
+
+
+# ------------- and ------------- 
+
+# num1 = True
+# num2 = True
+
+# print(num1 and num2)  #True
+
+# val1 = False
+# val2 = True
+
+# print(val1 and val2) #False
+
+
+# ------------- or ------------- 
+
+# num1 = True
+# num2 = False
+
+# print(num1 or num2) #True
+
+# val1 = False
+# val2 = False
+
+# print(val1 or val2)
+
+
+# ----------------------------------- Type Conversion --------------------------- 
