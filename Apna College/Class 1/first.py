@@ -279,3 +279,103 @@ print(50)
 
 
 # ----------------------------------- Type Conversion --------------------------- 
+
+# Python me type conversion ka matlab hai ek data type ko dusre data type me convert karna.
+
+# python me 2 tra k type conversio hote hai  ik ko implicit kehte hai jo automatic hote hai yaani python ka interpeter convert krta hai
+# or dosra explicit ye programer khud decide krta hai k kisi data type ko kis dosre data type me convert krna hai --- 
+
+# ---------------- Implicit conversion ------------------  Automatic
+
+# x = 5       # int
+# y = 2.5    # float
+
+# sum = x + y  # int + float
+# print(sum)  # 7.5
+# print(type(sum))  # <class 'float'>
+
+
+# point >>> Float is superior as compare to integer 
+
+# ------------------------ Explicit conversion ---------------- Manually
+
+# num1 = int("10")
+# num2 = 3.5
+
+# print(type(num1))
+
+# sum = num1 + num2
+# print(sum)
+# print(type(sum))
+
+# ------------------------------- 
+
+# num1 = 'Malik '
+# num2 = str(12)
+
+# print(num1 + num2)
+
+# ------------------------------- 
+
+# num1 = True
+# print(num1)
+# print(type(num1))
+
+# num1 = str(True)
+# print(num1)
+# print(type(num1))
+
+# ---------------------
+
+# val = False
+# print(val)
+# print(type(val))
+
+
+# val = str(False)
+# print(val)
+# print(type(val))
+
+
+# ---------------------
+
+# val = int(False)
+# print(val)
+# print(type(val))
+
+# num = True
+# print(num)
+# print(type(num))
+
+# num = int(True)
+# print(num)
+# print(type(num))
+
+
+# num = True
+# print(num)
+# print(type(num))
+
+# num = float(True)
+# print(num)
+# print(type(num))
+
+# ---------------------
+
+# val = float(False)
+# print(val)
+# print(type(val))
+
+
+# ---------------------
+
+# string = bool(True)
+# print(string)
+# print(type(string))
+
+
+# val =int("Pakistan")
+# print(val)
+# print(type(val))
+
+# --------------------------------------------------------- Input ----------------------------------------------- 
