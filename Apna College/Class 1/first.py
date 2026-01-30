@@ -379,3 +379,24 @@ print(50)
 # print(type(val))
 
 # --------------------------------------------------------- Input ----------------------------------------------- 
+
+# num1 = int(input('Enter a First number :' , ))
+# num2 = int(input('Enter a Sec number :' , ))
+
+# print('Sum of number is :' , num1 + num2 )
+
+
+# ------------------------------------- 
+
+# num1 = float(input('Enter a First number :' , ))
+# num2 = float(input('Enter a Sec number :' , ))
+
+# print('Average of  numbers:' , (num1 + num2) / 2 )
+
+
+# ------------------------------------- 
+
+# a = int(input("Enter a First Number:"))
+# b = int(input("Enter a Sec Number:"))
+ 
+# print(a >= b)
