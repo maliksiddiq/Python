@@ -6,6 +6,9 @@
 
 # 3️⃣ Python is a powerful and popular programming language used in web development, data science, AI, and automation.
 
+# 4 Python is a high-level, interpreted programming language created by Guido van Rossum in 1991 to make programming
+# simple and readable.
+
 # print('Hello World!')
 # print('My name is Siddiq')
 # print('I am a Student!')
@@ -14,7 +17,7 @@
 
 # ---------------------------------------------------------------------------
 
-# name = 'Siddiq'
+# name = 'Siddiq '
 # age = 20
 # shirtPrice = 22.5
 
@@ -26,7 +29,8 @@
 # print('I am ' , age , ' Years Old')
 # print('My shirt price is ' , shirtPrice)
 
-# print(name + age)   Its a Wrong Way to code in python!
+# print(name + age)  # Its a Wrong Way to code in python!
+# print(name , age)  # Its a corrcet way in python!
 
 # name = 'Malik Siddiq Awan!'
 # age = 20
@@ -379,6 +383,13 @@ print(50)
 # print(type(val))
 
 # --------------------------------------------------------- Input ----------------------------------------------- 
+# Input  Definition
+
+# In Python, input() is a built-in function that is used to take input from the user during program execution.
+#  It always returns the input as a string.
+
+# The input() function allows the user to enter data, and Python stores that data as a string.
+
 
 # num1 = int(input('Enter a First number :' , ))
 # num2 = int(input('Enter a Sec number :' , ))
@@ -400,3 +411,29 @@ print(50)
 # b = int(input("Enter a Sec Number:"))
  
 # print(a >= b)
+
+# -------------------------------------------- 👉 Operator Precedence --------------------------------------------- 
+
+# Arithmetic Operators ki Priority (Importance)
+
+# 1️⃣ () → Brackets / Parentheses
+# 2️⃣ ** → Power (Exponent)
+# 3️⃣ * , / , // , % → Multiply, Divide, Floor divide, Modulus
+# 4️⃣ + , - → Add, Subtract
+
+#Point  >>> Jab Same priority k operators a jae to left to right dekha jae ga is process ko (Associativity) Kehte hai ,
+
+# print(30 + 30 / 2)  # 45.0
+
+# print(10 + 10 * 4 / 2)  # 30.0
+
+# print(10 + 5 / 2)  # 12.5
+
+# print((10 + 5 ) / 2) #7.5
+
+# print(12 + 3 * 4 + 10 *(10 + 10) - 3 + 12 / 2)  #227.0
+                                             
+# print(15 - 5 * 4 * (12 * 2) + 10 - 3 + 2 ** 3 + (12 * 2) + 8 - 4 / 2)  #-420.0   
+
+# ----------------------------------------------------------------------- Practice ---------------------------------------------
+
