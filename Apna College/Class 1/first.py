@@ -17,6 +17,11 @@
 
 # ---------------------------------------------------------------------------
 
+# Variable computer ke dimagh (RAM) me rakhe data ka naam hota hai
+
+# A box with a name that stores data for later use.
+
+
 # name = 'Siddiq '
 # age = 20
 # shirtPrice = 22.5
@@ -61,6 +66,12 @@
 # ---------------------------------------------------------------------------
 
 # Data Types in python 
+
+# Python ko ye batana ke data kis type ka hai.
+
+# A data type defines the kind of value a variable can store.
+# A data type tells Python how to interpret and use a value in memory.
+
 
 # 1 integer =  +20  ,  -20   ,  0
 # 2 Float =  2.5   ,  +2.5    , -3.5
@@ -286,7 +297,7 @@ print(50)
 
 # Python me type conversion ka matlab hai ek data type ko dusre data type me convert karna.
 
-# python me 2 tra k type conversio hote hai  ik ko implicit kehte hai jo automatic hote hai yaani python ka interpeter convert krta hai
+# python me 2 tra k type conversion hote hai  ik ko implicit kehte hai jo automatic hote hai yaani python ka interpeter convert krta hai
 # or dosra explicit ye programer khud decide krta hai k kisi data type ko kis dosre data type me convert krna hai --- 
 
 # ---------------- Implicit conversion ------------------  Automatic
@@ -297,6 +308,7 @@ print(50)
 # sum = x + y  # int + float
 # print(sum)  # 7.5
 # print(type(sum))  # <class 'float'>
+# print(type(x) , type(y))
 
 
 # point >>> Float is superior as compare to integer 
@@ -435,5 +447,297 @@ print(50)
                                              
 # print(15 - 5 * 4 * (12 * 2) + 10 - 3 + 2 ** 3 + (12 * 2) + 8 - 4 / 2)  #-420.0   
 
+
 # ----------------------------------------------------------------------- Practice ---------------------------------------------
 
+# print('Malik Siddiq Awan!')
+
+# print("Malik Siddiq Awan!")
+
+# print(10 + 5)
+# print(10 + '5')  Error
+
+# print("10 " + '5') Concate
+
+# x = print(9 / 3) # >>> yahan x k andar kuch nhi jae ga
+
+# x = 9 / 3
+# print(x)
+# print(type(x))
+
+# -------------------------
+
+# fisrt_name = 'Malik'
+# sec_name = 'Siddiq'
+# print(fisrt_name)
+# print(sec_name)
+
+# print(fisrt_name , sec_name)
+# print(fisrt_name + ' ' + sec_name)
+# print(f"{fisrt_name} {sec_name}")
+
+# -------------------------
+
+# x = 50
+# y = 10
+
+# print(x + y)  #60
+# print(type(x) , type(y))  #int
+
+
+# x = 50
+# y = 10
+
+# print(f"{x} + {y}")  # 50 + 10
+# print(f"{x} {y} = {x + y}") # 50 10  = 60  
+# print(f"{x + y}") #60
+# print(type(x) , type(y)) #int
+
+# print(type(x , y) ) # Its a Worng way
+
+# -------------------------
+
+# print('50' + '10') #5010
+# print("50 + 10") #50 + 10
+# print('50' + " " + '10') #50 10
+
+# print(int('50') + 10) #60
+# print(float("50") + float("10"))
+# print(float("50") + int("10"))
+# print(float('50') - int("10"))
+
+# x = 50
+# y = 10.0
+
+# print(x)
+# print(y)
+# print(type(x) , type(y))
+
+# print(x + y)
+# print(type(x) , type(y))
+
+# ------------------------------------------
+
+# fruit_name = "Apple" 
+# print(fruit_name)
+
+# _subject_name = 'English' 
+# print(_subject_name) 
+
+
+# first_name =  "Malik"
+# sec_name =  "Siddiq"
+
+# concate = f"{first_name} {sec_name}"
+
+# print(concate)
+
+
+# val1 = 15
+# val2 = 15
+
+# sum = val1 + val2
+# print(sum)
+
+# val1 = 15
+# val2 = 15
+
+# sum = f"{val1 + val2}"
+# print(sum)
+
+
+# is_happy = True
+# print(is_happy)
+
+# is_lazy = False
+# print(is_lazy)
+
+# add_bool = is_happy + is_lazy
+# print(add_bool) 
+# print(type(add_bool)) 
+
+# print(True * 3)
+# print(True + 3 * 4)
+
+# print(True + True + 12 - False + 1)
+
+# --------------------------------------- Print() ------------------------------------- 
+
+# Python me print ek built-in function hai.
+
+# print ka matlab hota hai screen par output show karwana.
+
+# print('Malik Siddiq Awan!')
+
+# print(12 * 2)
+# print(12 + 2)
+# print(12 - 2)
+# print(12 / 2)
+# print(12 % 2)
+# print(12 ** 2
+
+# print(5 > 3) #True 
+# print(5 < 3) #False 
+# print(5 >= 5) #True  
+# print(5 <= 5) #True 
+# print(5 == 3) #False 
+# print(5 != 3) #True 
+
+# ---------------------------------------------- variables and data types ---------------------
+
+# full_name = ('Malik Siddiq Awan!')
+# print(full_name)
+# print(type(full_name))
+
+# roll_num = 12345
+# print(roll_num)
+# print(type(roll_num))
+
+
+# percentage = 89.9
+# print(percentage)
+# print(type(percentage))
+
+# is_happy = True
+# print(is_happy)
+# print(type(is_happy))
+
+
+# is_lazy = False
+# print(is_lazy)
+# print(type(is_lazy))
+
+# emptyValue = None
+# print(emptyValue)
+# print(type(emptyValue))
+
+
+# val1 = 12
+# val2 = 3
+
+# divide = val1 / val2
+# print(divide)
+
+
+# num1 = 1
+# num2 = 2
+# num3 = 3
+# num4 = 4
+# num5 = 5
+
+# multiply = num1 * num2 * num3 * num4 * num5
+# print(multiply)
+
+# --------------------------------- Arithmetic operators -------------------------
+
+# print(20 + 20) #40
+# print(20 - 10) #10
+# print(12 * 2) #24
+# print(12 / 3) #4.0
+# print(21 % 4) #1
+# print(4 ** 5) #1024
+
+# --------------------------------- Comparison operators -------------------------
+
+# print(8 < 10) #True
+# print(8 <= 8) #True
+# print(8 > 4) #True
+# print(8 >= 8) #True
+# print(8 == 8) #True
+# print(7 != 8) #True
+
+# --------------------------------- Assignment  operators -------------------------
+
+# var1 = 20
+# print(var1)
+
+# var1 += 10
+# print(var1)
+
+# var1 += 10
+# print(var1)
+
+
+# var2 = 30
+# print(var2)
+
+# var2 -= 10
+# print(var2)
+
+# var3 = 12
+# print(var3)
+
+# var3 /= 3
+# print(var3)
+
+
+# var4 = 30
+# print(var4)
+
+# var4 *= 3
+# print(var4)
+
+# var5 = 3
+# print(var5)
+
+# var5 **=  3
+# print(var5)
+
+
+# var6 = 13
+# print(var6)
+
+# var6 %= 3
+# print(var6)
+
+
+# -------------------------------- Logical Operators -------------------------- 
+
+# val1 = True
+# val2 = False
+
+# print(not(val1))
+# print(not(val2))
+
+
+# num1 = True
+# num2 = True
+
+# and_opt = num1 and num2
+# print(and_opt) 
+
+
+# num1 = True
+# num2 = False
+
+# and_opt = num1 and num2
+# print(and_opt) 
+
+# print(True and True and True)
+
+
+# num1 = True
+# num2 = False
+
+# or_opt = num1 or num2
+# print(or_opt)
+
+
+# num1 = False
+# num2 = False
+
+# or_opt = num1 or num2
+# print(or_opt)
+
+
+# x = 5 > 3
+# y = 6 < 3
+
+# or_Opt = x or y
+# print(or_Opt)
+
+# ------------------------------------------------------------------------------
+
+# print(5 * "2")
+# print("5" * 2)
+# print(5 == "5")
