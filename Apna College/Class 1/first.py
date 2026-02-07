@@ -257,7 +257,7 @@ print(50)
 
 
 # ----------------------------------- Logical Operators --------------------------
-
+# Precedence Rule of logical opt >>>  not   >>> and >>> or
 # not operator
 
 # val1 = True
@@ -738,6 +738,53 @@ print(50)
 
 # ------------------------------------------------------------------------------
 
+# print(4 + '4')
+# print('4' + 4)
+
+# print(4 - '4')
+# print('4' - 4)
+
+# print(4 / '2')
+# print('4' / 2)
+
+# print(13 % '3')
+# print('13' % 3)
+
+# print(5 ** '2')
+# print('5' ** 2)
+
+# --------------------------------
+
+# string * number = string repetition
+
 # print(5 * "2")
 # print("5" * 2)
+# print(12 * '6')
+# print(6 * '12')
 # print(5 == "5")
+
+# --------------------------------------------------------
+
+# print(not True) #False
+# print(not False) #True
+
+# print(True and True) #True
+# print(True and False) #False
+
+# print(True or True) #True
+# print(True or False) #True
+
+
+# print(not True and False) #False
+# print(not False and True) #True
+
+# print(True and True not True) #Wrong Way
+
+# print(True and True or False) #True
+# print(not False and True or False and True) #True
+
+# print(True or not False and False) #True
+
+# print(5 == "5") #False  Incompatiable Kaam Nhi kr skte
+# print(5 == 5.0) #True   >>> Compatible ka matlab hai: “jo ek dusre ke sath kaam kar sakta hai”
+
