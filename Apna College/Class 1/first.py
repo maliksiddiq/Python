@@ -762,6 +762,7 @@ print(50)
 # print(12 * '6')
 # print(6 * '12')
 # print(5 == "5")
+# print(5 == 5.0)
 
 # --------------------------------------------------------
 
@@ -788,3 +789,4 @@ print(50)
 # print(5 == "5") #False  Incompatiable Kaam Nhi kr skte
 # print(5 == 5.0) #True   >>> Compatible ka matlab hai: “jo ek dusre ke sath kaam kar sakta hai”
 
+# print(input("Enter Your name :"))
