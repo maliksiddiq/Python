@@ -203,6 +203,9 @@
 # print(playing[0 : 21 : 2 ]) # Start : End : Step
 # print(playing[0 : 21 : 3 ]) # Start : End : Step
 
+# --------------------------------------------
+
+# Every method is a function, but not every function is a method.
 
 # ----------------------------- String Functions -----------------------
 
@@ -226,7 +229,7 @@
 #11 title()
 #12 isupper()
 #13 islower()
-# 14 strip()
+# 14 strip()  # >>> l-strip  >>> r-strip
 # 15 isalpha()
 # 16 isdigit()
 
@@ -550,4 +553,168 @@
 
 # -------------------------------------------------------------------------------------
 
-# 14 strip() >>> 
+# 14 strip() >>> strip() is a string method that removes extra spaces (whitespace) from the start and end of a string.
+# "strip() removes extra spaces from the start and end of a string, but it does not remove spaces from the middle."
+
+# text1 = "       Hello World          "
+# print(text1) #Oiginal value
+# print(text1.strip()) #Oiginal value
+
+
+# text2 = '    Hello             World         '
+# print(text2) #original value
+# print(text2.strip()) 
+
+
+# text3 = '      Hello World'
+# print(text3)
+# print(text3.lstrip())
+
+# ------------------------------------------------------------------------
+
+# 15 isalpha >>> isalpha() is a string method that checks if a string contains only alphabet letters (A–Z or a–z).
+
+# alpha1 = 'Hello'
+# print(alpha1) #original value
+# print(alpha1.isalpha()) #True
+
+
+# alpha2 = 'hello World'
+# print(alpha2) #original value
+# print(alpha2.isalpha()) #False
+
+# alpha3 = 'Hello1'
+# print(alpha3) #original value
+# print(alpha3.isalpha()) #False
+
+
+# alpha4 = 'hello@'
+# print(alpha4.isalpha())
+
+# ------------------------------------------------------------------------
+
+#16 isdigit() >>>  is a string method that checks if a string contains only digits its return true.
+
+# digit1 = '12345'
+# print(digit1) 
+# print(digit1.isdigit())  #True
+
+
+# digit1 = '12345$'
+# print(digit1) 
+# print(digit1.isdigit()) 
+
+# -------------------------------------------------------------------------------------------------------------------------------------------------
+
+# ----------------------------------------------- Conditional Statement --------------------------------- !
+
+# if is used to run a block of code only when a condition is True.
+
+# elif means else if. It is used to check another condition when the first if condition is False.
+
+# else is used to run a block of code when all conditions are False..
+
+# Indentation means giving spaces at the start of a line to show that the code belongs to a block (like if, else, loop).
+
+# Syntax Of Condition >>>   
+
+# if condition:
+#     statement
+# else:
+    #   statement
+
+
+# is_raining = True
+
+# if  is_raining:
+#     print('Bring an umbrella')    #Indentation
+# else:
+#     print("Do not bring an umbrella")     #Indentation
+
+
+# -----------------------------
+
+# if False:
+#     print('Bring the water')
+# else:
+#     print('Do not bring the Water ')    
+
+
+# -----------------------------
+
+# if (True):
+#     print('You can vote')
+# else:
+#     print('You cannot vote')    
+
+
+# -----------------------------
+
+# age = 17
+
+# if age >= 18:
+#     print('You are eligible for CNIC')
+# else:
+#     print('You are not eligible for CNIC')    
+
+
+# ----------------------------- Traffic Signal --------------------
+
+# signal = 'Green'
+
+# if signal == 'Red':
+#     print('Stop')
+# elif signal == 'Yellow':
+#     print('Slow Down') 
+# elif signal == 'Green':
+#     print('Go')    
+# else:
+#     print("Invalid signal")
+
+# --------------------------------------------- Weather Decision -----------------------------------
+
+# weather = 'normal'
+
+# if weather == 'rainy':
+#     print('Take an Umbrella')
+# elif weather == 'cold':
+#     print('Wear a jacket') 
+# elif weather == 'sunny':
+#     print('Wear sunglasses')       
+# else:
+#     print('Stay normal')
+
+
+# ----------------------------- Basic  Marks System ------------------
+
+# marks = int(input('Enter Your Number'))
+
+# if marks >= 90:
+#     print('Grade A+')
+# elif marks >= 80:
+#     print('Grade A')
+# elif marks >= 70:
+#     print('Grade B')
+# elif marks >= 60:
+#     print("Grade C")
+# else:
+#     print('Fail')    
+
+
+# --------------------------------------------- Resturant System ----------------
+
+# drink = "tea"
+
+# if drink == "tea":
+#     print("Tea will be served")
+# elif drink == "coffee":
+#     print("Coffee will be served")
+# elif drink == "juice":
+#     print("Juice will be served")
+# else:
+#     print("Sorry, not available")
+
+
+# -------------------------------------------------------------------------------------------------------------------
+
+# ------------------------------------- Strong marks System -------------------------------------
