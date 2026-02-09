@@ -718,3 +718,81 @@
 # -------------------------------------------------------------------------------------------------------------------
 
 # ------------------------------------- Strong marks System -------------------------------------
+
+# marks = int(input("Enter a num between 0 to 100 to check your mark's"))
+
+# if (marks  < 0  or  marks > 100):
+#     print('Please Enter a num Between 0 to 100')  
+# elif marks >= 90   and  marks <= 100:
+#     print('Grade A+') 
+# elif marks >= 80  and  marks  < 90:
+#     print('Grade A')      
+# elif marks  >= 70  and marks < 80:
+#     print('Grade B')
+# elif marks >= 60  and marks < 70:
+#     print('Grade C')  
+# else:
+#     print('fail')        
+
+
+
+# marks = int(input("Enter a num between 0 to 100 to check your mark's"))
+
+# if (not marks >= 0  and marks <= 100):
+#     print('Please Enter a num Between 0 to 100')  
+# elif marks >= 90   and  marks <= 100:
+#     print('Grade A+') 
+# elif marks >= 80  and  marks  < 90:
+#     print('Grade A')      
+# elif marks  >= 70  and marks < 80:
+#     print('Grade B')
+# elif marks >= 60  and marks < 70:
+#     print('Grade C')  
+# else:
+#     print('fail')         
+
+
+# -------------------------------------------------------------- Admission ----------------
+
+# age = 18
+# cnic = False
+
+# if  age >= 18  and  cnic == True:
+#     print('Allowed!')
+# else:
+#     print('Not Allowed!')    
+
+
+# ----------------------------------------------  Login System ----------------------
+
+# user_name = input('Enter your name :')
+# password = input('Enter your password :')
+
+# if user_name == 'Siddiq'  and password  == '12345':
+#     print('Login Successful')
+# else:
+#     print('Invalid Username or Password!')    
+
+
+# --------------------------------------------------  Differnce With if and elif
+
+# num = 10
+
+# if num > 5:
+#     print('Greater Than 5')
+# if  num > 8:
+#     print('Greater Than 8')   
+
+
+# num = 10
+
+# if num > 5:
+#     print('Greater Than 5')
+# elif  num > 8:
+#     print('Greater Than 8')   
+
+# ------------------------------------------------ Nested Conditional Statement  -----------------------------------------------------
+
+
+
+
